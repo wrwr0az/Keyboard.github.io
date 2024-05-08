@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif; /* Consider using an Arabic font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+	width: 100vw;
+    margin: 0;
+    background: #f4f4f4; /* Light background for better visibility */
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 0;
+    border: none;
+    color: white;
+    font-size: 3em;
+    cursor: pointer;
+    border-radius: 50%;
+	width: 12vw;
+    height: 12vh;
+
+}
+
+.yellow { background-color: #000000; }
+.green { background-color: #023d02; }
+.blue { background-color: #040438; }
+.orange { background-color: #2a1c04; }
+
+#output {
+    font-size: 150px;
+    height: 155px;
+    line-height: 150px;
+
+}
+
+
+.buttons{
+	width: 100vh;
+	display: flex;
+    margin-top: 20px;
+	justify-content: space-evenly;
+}
+	
+
+.delete-btn {
+    margin-top: 5%;
+    padding: 10px 20px;
+    font-size: 3em;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+	border-radius: 8px;
+	width: 20%
+}
+
+.space-btn {
+	margin-top: 5%;
+    padding: 10px 20px;
+    font-size: 3em;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+	border-radius: 8px;
+	width: 20%
+}
